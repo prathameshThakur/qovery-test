@@ -1,0 +1,15 @@
+---
+application:
+  name: "qovery-test"
+  project: "test-qovery"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "test-db"
+  version: "11"
+routers:
+- name: "main-qovery-test"
+  routes:
+  - application_name: "qovery-test"
+    paths:
+    - "/*"
