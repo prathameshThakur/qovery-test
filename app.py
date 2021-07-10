@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/',methods=['POST','GET'])
 def hello():
-	return "<h1>welcome to the ISV</h1>"
+	return "<h1>welcome to the ISV on Qovery</h1>"
 
 
 if __name__ == "__main__":
